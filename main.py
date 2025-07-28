@@ -1,5 +1,3 @@
-# archivo: main.py
-
 from generador_datos import generar_datos_prueba
 from analisis import analizar_ordenamiento, analizar_busqueda
 from algoritmos.ordenamiento import quick_sort
