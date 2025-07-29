@@ -1,5 +1,4 @@
 def insertion_sort(arr, key, reverse=False):
-    # ... (código idéntico al de la respuesta anterior)
     for i in range(1, len(arr)):
         key_item = arr[i]
         j = i - 1
@@ -10,7 +9,7 @@ def insertion_sort(arr, key, reverse=False):
     return arr
 
 def merge_sort(arr, key, reverse=False):
-    # ... (código idéntico al de la respuesta anterior)
+
     if len(arr) > 1:
         mid = len(arr) // 2
         L, R = arr[:mid], arr[mid:]
@@ -28,7 +27,6 @@ def merge_sort(arr, key, reverse=False):
     return arr
 
 def quick_sort(arr, key, reverse=False):
-    # ... (código idéntico al de la respuesta anterior)
     if len(arr) <= 1:
         return arr
     pivot = arr[len(arr) // 2]

@@ -13,7 +13,7 @@ def mostrar_menu():
     print("1. Analizar rendimiento de algoritmos de Ordenamiento")
     print("2. Analizar rendimiento de algoritmos de Búsqueda (Pruebas automáticas)")
     print("3. Ver todos los productos del catálogo (con opciones de orden)")
-    print("4. Buscar un producto") # ✅ Nueva opción
+    print("4. Buscar un producto") 
     print("0. Salir")
     print("-----------------------------------------------")
 
